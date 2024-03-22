@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1 className='text-primary-light'>TEST</h1>
     </div>
   );
 }
