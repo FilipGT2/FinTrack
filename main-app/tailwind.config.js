@@ -11,6 +11,7 @@ module.exports = {
         secondary:{
           black: '#000000',
           white: '#ffffff',
+          
         }
       },
     },
