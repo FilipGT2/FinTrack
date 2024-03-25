@@ -10,8 +10,15 @@ function App() {
       <Header />
         <Login />
     </div>
+  );
+}
 
-    
+function Register(){
+  return(
+    <div className="RegisterPage">
+      <Header />
+      <Register />
+    </div>
   );
 }
 
