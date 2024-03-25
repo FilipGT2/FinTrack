@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import logo from '../components/login';
+import logo from './loginform';
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
