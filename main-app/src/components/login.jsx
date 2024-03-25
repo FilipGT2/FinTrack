@@ -1,7 +1,5 @@
 import React from "react";
 import logo from "../logo.svg"
-import { AiOutlineTwitter } from "react-icons/ai";
-import { BiLogoFacebook } from "react-icons/bi";
 
 
 const Login = () => {
@@ -11,30 +9,12 @@ const Login = () => {
       <img src={logo} alt="Login"/>     
       </div>
       <div className="md:w-1/3 max-w-sm">
-        <div className="text-center md:text-left">
-          <label className="mr-1">Sign in with</label>
-          <button
-            type="button"
-            className="mx-1 h-9 w-9  rounded-full bg-primary-roseRed hover:bg-primary-darkBlue text-white shadow-[0_4px_9px_-4px_#3b71ca]"
-          >
-            <BiLogoFacebook
-              size={20}
-              className="flex justify-center items-center w-full"
-            />
-          </button>
-          <button
-            type="button"
-            className="inlne-block mx-1 h-9 w-9 rounded-full bg-primary-roseRed hover:bg-primary-darkBlue uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca]"
-          >
-            <AiOutlineTwitter
-              size={20}
-              className="flex justify-center items-center w-full"
-            />
-          </button>
+        <div className="text-center md:text-center">
+          <label className="mr-1 text-4xl text-primary-darkBlue font-bold">Sign In</label>
         </div>
         <div className="my-5 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
-          <p className="mx-4 mb-0 text-center font-semibold text-slate-500">
-            Or
+          <p className="mx-4 mb-0 text-center font-semibold text-primary-darkBlue">
+            Using Username and Password
           </p>
         </div>
         <input
