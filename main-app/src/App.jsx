@@ -8,7 +8,7 @@ import Favicon from './favicon.svg';
 
 function App() {
   return (
-    <div className="LoginPage">
+    <div className="LoginPage"> 
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Header />} />
