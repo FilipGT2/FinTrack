@@ -4,6 +4,7 @@ import './App.css';
 import Login from './components/loginForm'; 
 import Header from './components/header';
 import { Route, Routes } from 'react-router-dom';
+import Favicon from './favicon.svg';
 
 function App() {
   return (
