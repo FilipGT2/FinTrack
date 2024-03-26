@@ -6,6 +6,7 @@ import Register from './components/registerForm';
 import Header from './components/header';
 import { Route, Routes } from 'react-router-dom';
 import Favicon from './favicon.svg';
+import ProfileSetup from './components/profileSetup';
 
 function App() {
   return (
@@ -14,18 +15,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register/>} />
         <Route path="/" element={<Header />} />
+        <Route path="/profileSetup" element={<ProfileSetup />} />
       </Routes>
     </div>
   );
 }
-
-/*  function Register(){
-  return(
-    <div className="RegisterPage">
-      <Header />
-      <Register />
-    </div>
-  );
-} */
 
 export default App;
