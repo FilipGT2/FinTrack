@@ -1,10 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
 import logo from "../logo.svg";
-=======
-import logo from "../logo.svg"
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
->>>>>>> a8ff28c0ac0d4cd6d813f923890cbc45b966bd1d
 
 
 const Register = () => {

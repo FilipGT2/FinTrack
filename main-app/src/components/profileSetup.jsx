@@ -297,13 +297,13 @@ const ProfileSetup = () => {
       <div className="flex justify-center pt-3 pb-5">
         <button
           type="button"
-          className="rounded-md border border-gray-300 bg-white py-2 px-4 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-darkBlue focus:ring-offset-2"
+          className="rounded-md bg-white py-2 px-4 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-darkBlue focus:ring-offset-2"
         >
           Go Back
         </button>
         <button
           type="submit"
-          className="ml-3 inline-flex justify-center rounded-md border border-transparent bg-primary-roseRed py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-primary-darkBlue focus:outline-none focus:ring-2 focus:ring-primary-darkBlue focus:ring-offset-2"
+          className="ml-3 inline-flex justify-center rounded-md border border-transparent bg-primary-roseRed py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-primary-darkBlue hover:scale-125 transition duration-400 focus:outline-none focus:ring-2 focus:ring-primary-darkBlue focus:ring-offset-2"
         >
           Save
         </button>
