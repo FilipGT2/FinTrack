@@ -3,12 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './components/loginForm'; 
 import Header from './components/header';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="LoginPage">
-      <Header />
-        <Login />
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Header />} />
+      </Routes>
     </div>
   );
 }
