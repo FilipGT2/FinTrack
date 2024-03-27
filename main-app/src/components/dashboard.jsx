@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../logo.svg";
 import Header from "./header.jsx";
 
- const Dashboard = () => {
+const Dashboard = () => {
     return(
         <div>
-            <Header/>
+            <Header />
+            
         </div>
     )
  }
