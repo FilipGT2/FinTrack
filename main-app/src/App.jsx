@@ -22,13 +22,4 @@ function App() {
   );
 }
 
-/*  function Register(){
-  return(
-    <div className="RegisterPage">
-      <Header />
-      <Register />
-    </div>
-  );
-} */
-
 export default App;
